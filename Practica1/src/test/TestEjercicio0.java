@@ -1,19 +1,14 @@
 package test;
 
-import java.util.List;
-import java.util.function.Function;
-import ejercicios.Ejercicio0;
+import java.util.stream.Stream;
 
+import ejercicios.Ejercicio0;
 import us.lsi.common.Files2;
 
 public class TestEjercicio0 {
 
-	public static Function<Integer, Integer> f = x -> {
-		return x + 1;
-	};
-
 	public static void main(String[] args) {
-		List<String> lineasFichero = Files2.linesFromFile("ficheros/Ejemplo1_DatosEntrada.txt");
+/*		List<String> lineasFichero = Files2.linesFromFile("ficheros/Ejemplo0_DatosEntrada.txt");
 		for (String linea : lineasFichero) {
 			String[] elementos = linea.split(",");
 
@@ -29,9 +24,21 @@ public class TestEjercicio0 {
 
 			System.out.print("Funcional: " + res_funcional);
 			System.out.print("Iterativo: " + res_iterativo);
-			System.out.print("Recursivo: " + res_recursivo);
+			System.out.print("Recursivo: " + res_recursivo);*/
+		ejemplo3("ficheros/Ejercicio0");
+		
+	}
+	public static void ejemplo3(String path) {
+		Stream<String> lineasFichero = Files2.streamFromFile("ficheros/Ejercicio0.txt");		
+		//Stream con lineas fichero
+		lineasFichero
+			//Stream con listas de elementos de cada linea
+			.map(linea->linea.split(","))
+			.forEach(elementos -> System.out.println(Ejercicio0.ejemplo3_test(elementos[0],
+					elementos[1])));
 
+		
 		}
 	}
 
-}
+

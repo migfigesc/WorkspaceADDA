@@ -1,0 +1,31 @@
+package ejercicios;
+
+import java.util.List;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+public class Ejercicio1 {
+	
+	public static boolean ejercicio1(List<String> ls, Predicate<String> pS,
+			Predicate<Integer> pI, Function<String, Integer> f) {
+		
+		return ls.stream()
+				.filter(pS)
+				.map(f)
+				.anyMatch(pI);
+	}
+
+	public static boolean ejercicio1_iterativo(List<String> ls, Predicate<String> pS,
+			Predicate<Integer> pI, Function<String, Integer> f) {
+		
+		Boolean res = null;
+		int i = 0;
+		while(i<ls.size()&&res==false) {
+			String word = ls.get(i);
+			if(pS.test(word)) {
+				
+			}
+		}
+		return res;
+	}
+}
