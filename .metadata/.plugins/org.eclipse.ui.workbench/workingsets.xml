@@ -18,6 +18,7 @@
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1634229473271_5" label="Practicas" name="Practicas">
 <item elementID="=Practica1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Practica2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1633363130698_2" label="Window Working Set" name="Aggregate for window 1633363130698"/>
 <mruList name="RepositorioMigueToro"/>

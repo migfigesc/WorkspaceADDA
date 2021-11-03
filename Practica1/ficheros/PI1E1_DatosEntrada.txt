@@ -1,7 +1,3 @@
-// El predicado sobre String devuelve cierto si dicho String contiene alguna vocal abierta (es decir, a, e ó o)
-// El predicado sobre Integer devuelve cierto si ese entero es par
-// La función String -> Integer devuelve la longitud de la cadena 
-Ingreso
 Ingresos
 Ingreso,Ingresos
 ejercicios,practica,propuesta
@@ -9,4 +5,4 @@ pim,pam,pum
 cadena,recomendar,definir
 elemento,implementar,sol
 ala,map,public,static
-Aplicación, Rod, Palomitas de maíz, Machine, Pizza, Hormigas, Ingresos, Ayuda, Celebración, Hijo, Ejemplo, Tres, Significación, Gancho, Mujeres, Gracias, Aprobación, Extensión, Ropa, Rey, Ansiedad, Guante, Carne, Volumen, Pasta de dientes, Calendario, Llave, Unidad, Lectura, Locket, Necesidad, Tela, Reunión, Parche, Tanque, Entrada, Naranja, Lenguaje, Mono, Bote
+Aplicaciï¿½n, Rod, Palomitas de maï¿½z, Machine, Pizza, Hormigas, Ingresos, Ayuda, Celebraciï¿½n, Hijo, Ejemplo, Tres, Significaciï¿½n, Gancho, Mujeres, Gracias, Aprobaciï¿½n, Extensiï¿½n, Ropa, Rey, Ansiedad, Guante, Carne, Volumen, Pasta de dientes, Calendario, Llave, Unidad, Lectura, Locket, Necesidad, Tela, Reuniï¿½n, Parche, Tanque, Entrada, Naranja, Lenguaje, Mono, Bote

@@ -8,7 +8,7 @@ public class Ejercicio1 {
 	
 	private static Boolean res;
 
-	public static boolean ejercicio1(List<String> ls, Predicate<String> pS,
+	public static boolean ejercicio1_funcional(List<String> ls, Predicate<String> pS,
 			Predicate<Integer> pI, Function<String, Integer> f) {
 		
 		return ls.stream()
@@ -20,7 +20,7 @@ public class Ejercicio1 {
 	public static boolean ejercicio1_iterativo(List<String> ls, Predicate<String> pS,
 			Predicate<Integer> pI, Function<String, Integer> f) {
 		
-		res = null;
+		res = false;
 		int i = 0;
 		while(i<ls.size()&&res==false) {
 			String word = ls.get(i);
@@ -50,4 +50,5 @@ public class Ejercicio1 {
 		}
 		return res;
 	}
+
 }

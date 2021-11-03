@@ -92,7 +92,7 @@ public class Ejercicio0 {
 	public static record RangoString(
 			Integer i,
 			Integer j,
-			Integer k, //la generamos ya que es prop. derivada k = (i+j)/2
+			Integer k, //la generamos ya que es prop. derivada -> k = (i+j)/2
 			String a, //cadena string 1
 			String b  //cadena string 2
 			) {
