@@ -74,3 +74,11 @@ You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild
 2021-11-03 15:36:18,172 [Worker-10: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[/usr/bin/git, --version]' in '/usr/bin', return code '69', error message '
 You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
 '
+2021-11-09 15:43:40,206 [main] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[/usr/bin/git, --version]' in '/usr/bin', return code '69', error message '
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+'
+2021-11-09 16:08:26,318 [Worker-37: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-11-10 15:32:55,587 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-10 15:32:57,743 [Worker-8: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[/usr/bin/git, --version]' in '/usr/bin', return code '69', error message '
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+'
