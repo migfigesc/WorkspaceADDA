@@ -21,6 +21,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/mfigueroa/OneDrive - UNIVERSIDAD DE SEVILLA/Curso 2021-2022/ADDA Análisis y diseño de datos y algoritmos/Prácticas/Práctica Individual 2/PI2.zip"/>
 			<item value="/Users/mfigueroa/OneDrive - UNIVERSIDAD DE SEVILLA/Curso 2021-2022/ADDA Análisis y diseño de datos y algoritmos/Prácticas/Práctica Individual 1/Entrega 1.zip"/>
 		</list>
 	</section>
