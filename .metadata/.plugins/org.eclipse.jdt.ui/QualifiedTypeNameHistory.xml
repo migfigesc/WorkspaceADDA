@@ -25,11 +25,12 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="us.lsi.tiposrecursivos.Tree"/>
-    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="us.lsi.common.List2"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="us.lsi.common.Pair"/>
+    <fullyQualifiedTypeName name="us.lsi.tiposrecursivos.Tree"/>
+    <fullyQualifiedTypeName name="ejercicios.Ejercicio4"/>
     <fullyQualifiedTypeName name="us.lsi.tiposrecursivos.BinaryTree"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="us.lsi.common.List2"/>
 </qualifiedTypeNameHistroy>

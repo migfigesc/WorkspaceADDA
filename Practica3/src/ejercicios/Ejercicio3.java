@@ -25,7 +25,6 @@ public class Ejercicio3 {
 			for(int i : battery) multiplyList*=1;
 			if(multiplyList>res.second()) res = Pair.of(battery, multiplyList);
 			break;
-			x
 		case Binary:
 			battery.add(tree.getLabel());
 			List<Integer> origBattery = List2.copy(battery);
